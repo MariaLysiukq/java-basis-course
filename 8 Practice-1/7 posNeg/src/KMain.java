@@ -1,4 +1,4 @@
-public class Main {
+public class KMain {
     public boolean posNeg(int a, int b, boolean negative) {
         if (negative)
         {
