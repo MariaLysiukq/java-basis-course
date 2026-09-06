@@ -17,7 +17,7 @@ This repository is structured as a step-by-step module-based course. Each module
 - [x] **5. Loops** — Iteration using `for`, `while`, and `do-while`.
 - [x] **6. Methods** — Method definition, parameters, return types, and overloading.
 - [x] **7. Final Practice** — Consolidating core concepts through comprehensive tasks.
-- [ ] **8. Upcoming Topics** — *(Work in progress / To be added)*
+- [ ] **8. Upcoming Topics** in progress
 
 ## How to Run
 
