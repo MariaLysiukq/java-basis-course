@@ -43,11 +43,13 @@ public class Main {
         System.out.println(tank2);
 
         System.out.println("\nOperations on Tank-A:");
+        System.out.println("Is full initially? " + tank1.isFull());
         System.out.println("fill(90) success: " + tank1.fill(90) + " -> " + tank1);
         System.out.println("fill(30) success: " + tank1.fill(30) + " -> " + tank1);
         System.out.println("drain(60) success: " + tank1.drain(60) + " -> " + tank1);
         System.out.println("drain(10) success: " + tank1.drain(10) + " -> " + tank1);
-
+        System.out.println("Is full now? " + tank1.isFull());
+        
         System.out.println("\nOperations on Tank-B:");
         System.out.println("Is full initially? " + tank2.isFull());
         System.out.println("fill(10) success: " + tank2.fill(10) + " -> " + tank2);
