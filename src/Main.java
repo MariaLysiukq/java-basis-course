@@ -8,18 +8,26 @@ public class Main {
         System.out.println("Initial State:");
         System.out.println(player1);
         System.out.println(player2);
-
+        
         System.out.println("\nOperations on Maria:");
         player1.takeDamage(30);
+        System.out.println("After takeDamage(30): " + player1);
         player1.heal(15);
+        System.out.println("After heal(15): " + player1);
         player1.rest(40);
+        System.out.println("After rest(40): " + player1);
         boolean mariaAttack = player1.spendEnergy(150);
+        System.out.println("spendEnergy(150) success: " + mariaAttack + " -> " + player1);
 
-        System.out.println("Operations on Lancelot:");
+        System.out.println("\nOperations on Lancelot:");
         player2.takeDamage(30);
+        System.out.println("After takeDamage(30): " + player2);
         player2.heal(50);
+        System.out.println("After heal(50) (failed - dead): " + player2);
         player2.rest(30);
+        System.out.println("After rest(30) (failed - dead): " + player2);
         boolean lancelotAttack = player2.spendEnergy(5);
+        System.out.println("spendEnergy(5) success: " + lancelotAttack + " -> " + player2);
 
         System.out.println("\nFinal State:");
         System.out.println(player1);
