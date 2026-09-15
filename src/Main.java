@@ -45,16 +45,16 @@ public class Main {
         System.out.println(tank2);
 
         System.out.println("\nOperations on Tank-Alpha:");
-        boolean fillA1 = tank1.fill(90);
-        boolean fillA2 = tank1.fill(30);
-        boolean drainA1 = tank1.drain(60);
-        boolean drainA2 = tank1.drain(10);
+        System.out.println("fill(90) success: " + tank1.fill(90) + " -> " + tank1);
+        System.out.println("fill(30) success: " + tank1.fill(30) + " -> " + tank1);
+        System.out.println("drain(60) success: " + tank1.drain(60) + " -> " + tank1);
+        System.out.println("drain(10) success: " + tank1.drain(10) + " -> " + tank1);
 
-        System.out.println("Operations on Tank-Beta:");
-        boolean isBFullInit = tank2.isFull();
-        boolean fillB1 = tank2.fill(10);
-        boolean drainB1 = tank2.drain(20);
-        boolean isBFullAfter = tank2.isFull();
+        System.out.println("\nOperations on Tank-Beta:");
+        System.out.println("Is full initially? " + tank2.isFull());
+        System.out.println("fill(10) success: " + tank2.fill(10) + " -> " + tank2);
+        System.out.println("drain(20) success: " + tank2.drain(20) + " -> " + tank2);
+        System.out.println("Is full now? " + tank2.isFull());
 
         System.out.println("\nFinal State:");
         System.out.println(tank1);
